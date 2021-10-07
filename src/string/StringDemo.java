@@ -1,6 +1,6 @@
 package string;
 
-public class StringDemo {
+public class    StringDemo {
 
     public static void main(String[] args) {
 
@@ -10,12 +10,12 @@ public class StringDemo {
 
 
 
-        String s1 = new String("Rucha");
+        String s1 = new String("Prathmesh");
         String s2= new String("Sejal");
         String s3 ="Harshada";
-       // s2.concat("love");
-        s2=s2.concat("love");   //String literal
-        System.out.println(s2);
+       // s2.concat("loves");
+        s2=s2.concat("loves");   //String literal
+        System.out.println(s2.concat(s1));
 
 
         String s4 ="kiara";

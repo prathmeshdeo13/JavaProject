@@ -7,8 +7,8 @@ public class StaticMethods {
     }
 
     public static void main(String[] args) {
-        StaticMethods s = new StaticMethods();
-        s.display();
+//        StaticMethods s = new StaticMethods();
+//        s.display();
         StaticMethods.display();
     }
 }

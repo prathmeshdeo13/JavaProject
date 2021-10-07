@@ -10,7 +10,7 @@ public class JdbcDemo {
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
             Connection connection =
-                    DriverManager.getConnection("jdbc:mysql://localhost:3306/javajdbc?characterEncoding=Latin1","root","password");
+                    DriverManager.getConnection("jdbc:mysql://localhost:3306/jdbc?characterEncoding=Latin1","root","password");
             Statement statement = connection.createStatement();
             ResultSet rs =statement.executeQuery("select * from employee");
 
